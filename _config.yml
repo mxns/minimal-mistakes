@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "()"
+title                    : "~"
 title_separator          : "-"
 name                     : "Måns Rolandi"
 description              : ""
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Måns Rolandi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "~"
+  bio              : ""
   location         : "Stockholm"
   email            :
   uri              :
