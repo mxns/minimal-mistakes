@@ -3,7 +3,7 @@ title: "Unit testing a distributed service"
 ---
 >Testing a distributed application in a realistic environment with multiple hosts over a network is a hassle, and not easy to do in a development environment with requirements for simple, robust, reproducible tests with a really quick turnaround. This post outlines a light-weight test setup, based on Docker and Docker Compose, that enables automated, self-contained and stateless testing of distributed software, that can be easily deployed and maintained on a developer laptop. It is demonstrated how to emulate scenarios with multiple network interfaces, host crash/restart, and network partition. 
 
-[Example project.](https://github.com/mxns/hazelcast-lab)
+[Demo project.](https://github.com/mxns/hazelcast-lab)
 
 ## Unit testing a networked application?
 
@@ -135,3 +135,4 @@ The approach might fail for a number of reasons:
 
 It might be argued that a testable system is in some sense a well designed system. Therefore, applying test methods such as this at an early stage in the development process, and thus making sure that modularity and high level integration testability is maintained from the start, could be helpful in making some preferable design choices.
 
+[Leave a comment](https://github.com/mxns/mxns.github.io/issues/2)
